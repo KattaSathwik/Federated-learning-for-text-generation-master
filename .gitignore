@@ -1,0 +1,30 @@
+# Cached builds
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.odt#
+.ipynb_checkpoints/
+.ropeproject/
+.cache/
+.coverage
+
+# Build directories
+docs/_build/
+build/
+dist/
+venv/
+src.egg-info/
+data/raw/100.txt
+data/cleansing/data_preprocess.txt
+data/federation/users_and_plays.json
+data/federation/users_split_by_pearsons/*
+
+
+# IDEs
+.idea/
+
+# Testing and temporary files
+.tox/
